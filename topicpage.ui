@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow50</class>
+ <widget class="QMainWindow" name="MainWindow50">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1186</width>
+    <height>837</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>0</y>
+      <width>911</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/image/snow.jpeg);
+background-color:rgba(255,255,255,255);
+border-top-left-radius:150 px;</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>20</y>
+       <width>661</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>35</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(42, 135, 202, 255), stop:1 rgba(255, 255, 255, 255))
+}</string>
+     </property>
+     <property name="text">
+      <string>    Select One Topic</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="basicsbtm">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>140</y>
+       <width>360</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(176, 11, 173, 255), stop:1 rgba(255, 255, 255, 255))
+}</string>
+     </property>
+     <property name="text">
+      <string>Baics of Python</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="datatypesbtn">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>220</y>
+       <width>360</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(137, 54, 216, 255), stop:1 rgba(255, 255, 255, 255))
+}</string>
+     </property>
+     <property name="text">
+      <string>Data Types</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="controlstsbtn">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>310</y>
+       <width>360</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(68, 195, 142, 255), stop:1 rgba(255, 255, 255, 255))
+}</string>
+     </property>
+     <property name="text">
+      <string>Control Statements</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="oopsbtn">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>410</y>
+       <width>360</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(37, 193, 179, 255), stop:1 rgba(255, 255, 255, 255))
+}</string>
+     </property>
+     <property name="text">
+      <string>OOPS in Python</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="numpybtn">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>600</y>
+       <width>360</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(121, 213, 76, 255), stop:1 rgba(255, 255, 255, 255))
+}</string>
+     </property>
+     <property name="text">
+      <string>Numpy &amp; Pandas Libraries</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="filehandbtn">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>510</y>
+       <width>360</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(164, 2, 90, 255), stop:1 rgba(255, 255, 255, 255))
+}</string>
+     </property>
+     <property name="text">
+      <string>File Handling</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1186</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
