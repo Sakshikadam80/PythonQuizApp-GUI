@@ -1,5 +1,5 @@
 # PythonQuizApp-GUI
-I've created a Python quiz application using PyQT5. which has a login page, then select which topic you want to quiz on, and further results will be displayed.
+I've created a Python quiz application using PyQT5. which has a login page, then select any python topic on which you want to give quiz on, and further results will be displayed.
 Requirements are as follows i. Python IDLE ii. Python 3.9 version iii. PyQt5 Module iv. PyQt5 tools
 # Login page before entering details
 ![Screenshot (88)](https://github.com/Sakshikadam80/PythonQuizApp-GUI/assets/91478993/5fbb1dcf-b57c-43fb-b63e-b85a07d20a3d)
